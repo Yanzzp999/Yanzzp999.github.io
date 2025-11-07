@@ -5,8 +5,11 @@
 <h1 align="center">👋 你好，我是 Yanzzp999</h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yanzzp999&label=访问量&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/Yanzzp999?label=关注者&style=social" alt="followers" />
+  <a href="https://github.com/Yanzzp999">
+    <img src="https://img.shields.io/github/followers/Yanzzp999?label=Followers&style=social" alt="followers" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Yanzzp999&style=flat-square&color=blue" alt="profile views" />
 </p>
 
 ## 🚀 关于我
@@ -85,7 +88,7 @@
 
 <div align="center">
   
-  ![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=tokyonight&animation=default&layout=default&font=default)
+  [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
   
 </div>
 
