@@ -11,25 +11,26 @@
 
 ## 🚀 关于我
 
-```typescript
-const yanzzp = {
-    code: ["Python", "JavaScript", "TypeScript", "Java"],
-    technologies: {
-        frontEnd: {
-            frameworks: ["React", "Vue", "Next.js"],
-            css: ["Bootstrap", "Tailwind CSS"]
-        },
-        backEnd: {
-            frameworks: ["Node.js", "Django", "Flask"],
-            databases: ["MongoDB", "MySQL", "PostgreSQL"]
-        },
-        devOps: ["Docker", "Kubernetes", "AWS", "GitHub Actions"],
-        tools: ["Git", "VS Code", "Postman"]
-    },
-    hobbies: ["📷 摄影", "✈️ 旅行", "📚 阅读", "🎮 游戏"],
-    currentFocus: "全栈开发 & 开源贡献"
-};
-```
+<img align="right" width="250" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+
+### 💻 技能栈
+
+- **编程语言**: Python | JavaScript | TypeScript | Java
+- **前端开发**: React | Vue | Next.js | Tailwind CSS
+- **后端开发**: Node.js | Django | Flask
+- **数据库**: MongoDB | MySQL | PostgreSQL
+- **DevOps**: Docker | Kubernetes | AWS | GitHub Actions
+- **工具**: Git | VS Code | Postman
+
+### 🌟 兴趣爱好
+
+📷 摄影 | ✈️ 旅行 | 📚 阅读 | 🎮 游戏
+
+### 🎯 当前专注
+
+🔭 全栈开发 & 开源贡献
+
+---
 
 ## 📊 GitHub 统计
 
