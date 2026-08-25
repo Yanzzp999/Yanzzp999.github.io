@@ -64,9 +64,33 @@ jobs:
       - name: Collect summary cards into dist
         run: |
           mkdir -p dist/cards
-          cp profile-summary-card-output/tokyonight/*.svg dist/cards/
+          cp profile-summary-card-output/tokyonight/*.svg dist/cards/ 2>/dev/null || true
+
           echo "--- dist 内容 ---"
           find dist -type f | sort
+
+          # summary-cards 内部单张卡渲染失败不会让上一步变红(action 自己吞了
+          # 错误),而 cp 用通配符不会因缺文件报错,加上 build_dir 会整体替换
+          # output 分支 —— 三者组合会静默删掉 README 正在引用的文件。
+          # 这里显式校验:缺任何一个就让 job 失败,推送步骤不执行,
+          # output 分支保留上一次的完好版本。
+          missing=0
+          for f in \
+            dist/github-contribution-grid-snake.svg \
+            dist/github-contribution-grid-snake-dark.svg \
+            dist/streak.svg \
+            dist/cards/3-stats.svg \
+            dist/cards/1-repos-per-language.svg
+          do
+            if [ ! -s "$f" ]; then
+              echo "::error::缺少 README 引用的产物: $f"
+              missing=1
+            fi
+          done
+          [ "$missing" -eq 0 ] || {
+            echo "::error::产物不完整,已中止推送以保护 output 分支"
+            exit 1
+          }
 
       # 一次性推送。build_dir 会整体替换 output 分支内容，
       # 所以全部产物必须在同一次推送里。
