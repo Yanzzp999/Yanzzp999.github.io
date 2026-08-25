@@ -42,19 +42,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 连续提交卡
+      # 连续提交卡（用 STATS_TOKEN 以纳入私有贡献）
       - name: Generate streak card
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
           options: user=${{ github.repository_owner }}&theme=tokyonight
           path: dist/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
-      # 统计卡（内置 GITHUB_TOKEN 即可，无需 PAT）
+      # 统计卡（用 STATS_TOKEN 以纳入私有仓库）
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           UTC_OFFSET: 8
