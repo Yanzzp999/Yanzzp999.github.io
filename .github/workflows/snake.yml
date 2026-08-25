@@ -40,6 +40,24 @@ jobs:
           path: dist/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 生成统计卡（静态 SVG，用内置 GITHUB_TOKEN，无需 PAT/Vercel）
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8
+          AUTO_PUSH: false
+          THEME: tokyonight
+
+      # 汇总到 dist/，与贪吃蛇、streak 一并推送
+      - name: Collect summary cards into dist
+        run: |
+          mkdir -p dist/cards
+          cp profile-summary-card-output/tokyonight/*.svg dist/cards/
+          ls -l dist dist/cards
+
       # 一次性把所有产物推到 output 分支
       # 注意：build_dir 会整体替换 output 分支内容，所以三个产物必须在同一次推送中
       - name: Push generated assets to the output branch
