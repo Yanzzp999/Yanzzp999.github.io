@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=欢迎来到我的 GitHub 主页！;热爱编程，热爱开源;一起创造美好的代码世界！" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%20GitHub%20%E4%B8%BB%E9%A1%B5%EF%BC%81;%E7%83%AD%E7%88%B1%E7%BC%96%E7%A8%8B%EF%BC%8C%E7%83%AD%E7%88%B1%E5%BC%80%E6%BA%90;%E4%B8%80%E8%B5%B7%E5%88%9B%E9%80%A0%E7%BE%8E%E5%A5%BD%E7%9A%84%E4%BB%A3%E7%A0%81%E4%B8%96%E7%95%8C%EF%BC%81" alt="Typing SVG" />
 </div>
 
 <h1 align="center">👋 你好，我是 paveezheng</h1>
