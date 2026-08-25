@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=欢迎来到我的 GitHub 主页！;热爱编程，热爱开源;一起创造美好的代码世界！" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=欢迎来到我的 GitHub 主页！;热爱编程，热爱开源;一起创造美好的代码世界！" alt="Typing SVG" />
 </div>
 
 <h1 align="center">👋 你好，我是 paveezheng</h1>
@@ -43,7 +43,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=paveezheng&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=paveezheng&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
 ## 🐍 贪吃蛇吃掉我的提交记录
