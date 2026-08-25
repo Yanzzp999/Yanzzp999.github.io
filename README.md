@@ -43,7 +43,7 @@
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=paveezheng&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/paveezheng/paveezheng/output/streak.svg" alt="GitHub Streak" />
 </div>
 
 ## 🐍 贪吃蛇吃掉我的提交记录
