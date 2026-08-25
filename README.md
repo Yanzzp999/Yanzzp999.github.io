@@ -38,8 +38,8 @@
 ## 📊 GitHub 统计
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=paveezheng&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paveezheng&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img src="https://raw.githubusercontent.com/paveezheng/paveezheng/output/cards/3-stats.svg" alt="GitHub 统计" />
+  <img src="https://raw.githubusercontent.com/paveezheng/paveezheng/output/cards/1-repos-per-language.svg" alt="语言占比" />
 </div>
 
 <div align="center">
