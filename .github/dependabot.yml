@@ -1,0 +1,16 @@
+# 上面的 workflow 把 action 都 pin 到了具体版本(可复现、不会因上游移动
+# tag 而突然变行为)。代价是不会自动拿到修复,所以让 Dependabot 每周检查
+# 并提 PR。
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:23"
+      timezone: "Asia/Shanghai"
+    commit-message:
+      prefix: "chore(actions)"
+    labels:
+      - "dependencies"
