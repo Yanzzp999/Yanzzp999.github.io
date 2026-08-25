@@ -32,6 +32,8 @@ jobs:
 
     steps:
       # 贪吃蛇贡献图（浅色 + GitHub 深色模式各一份）
+      # 用 STATS_TOKEN：snk 走 GraphQL contributionsCollection，
+      # 读私有贡献需要 read:user scope
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3.5.0
         with:
@@ -40,7 +42,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
 
       # 连续提交卡（用 STATS_TOKEN 以纳入私有贡献）
       - name: Generate streak card
